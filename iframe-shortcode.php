@@ -3,8 +3,11 @@
 Plugin Name: iFrame Shortcode
 Description: Allow iFrames in the WordPress editor using a shortcode. For example: <code>[iframe src="http://apple.com" height="1000px"]</code>
 Version: 1.0
-Author: Brainstorm Media
-Author URI: http://brainstormmedia.com
+Author: Paul Clark, 10up
+Author URI: http://pdclark.com
+Plugin URI: http://github.com/10up/iframe-shortcode
+License: GPLv2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
 */
 
 add_shortcode('iframe','storm_iframe_shortcode');
